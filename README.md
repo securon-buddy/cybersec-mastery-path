@@ -1,8 +1,7 @@
 # cybersec-mastery-path
 An open-source learning path for aspiring security researchers. Covers everything from basic web vulnerabilities to advanced bug bounty automation.
 
-
-![Cybersecurity Banner](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop)
+<img width="500" height="500" alt="ca7250fd6b3bd2438a3e19cfd313ebc9-removebg-preview" src="https://github.com/user-attachments/assets/9e45c1a8-59f3-43b3-8965-39744fff5109" />
 
 # 🚀 The Ultimate Zero-to-Hero Cybersecurity & Bug Bounty Roadmap
 <p align="center">
