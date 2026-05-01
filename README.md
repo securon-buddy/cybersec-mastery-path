@@ -15,9 +15,78 @@ Welcome to the most comprehensive roadmap for mastering Vulnerability Assessment
 
 ---
 
-## 🗺️ Visual Roadmap Overview
-![Roadmap Flowchart](https://miro.medium.com/v2/resize:fit:1400/1*J24Z2c8P30B7u5K-H8xMvQ.jpeg) *(Note: Replace this link with your own custom flowchart if you design one!)*
+### 🗺️ Visual Roadmap Overview
 
+```mermaid
+graph TD
+    %% Define Styles for Different Stages
+    classDef fundamental fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef securityBasics fill:#ccf,stroke:#333,stroke-width:2px;
+    classDef webSec fill:#ff9,stroke:#333,stroke-width:2px;
+    classDef advancedSec fill:#bbf,stroke:#333,stroke-width:2px;
+    classDef master fill:#bfb,stroke:#333,stroke-width:2px;
+
+    %% Define Nodes and Flows
+    Start(BEGINNER: Zero Level) --> P1(Phase 1: IT Fundamentals)
+    
+    subgraph "The Foundation"
+        P1 --> P1_Net(Networking: OSI, TCP/IP)
+        P1 --> P1_OS(OS: Linux/Windows CLI)
+        P1 --> P1_Prog(Scripting: Bash, Python)
+    end
+
+    P1_Net --> P2(Phase 2: Security Basics)
+    P1_OS --> P2
+    P1_Prog --> P2
+
+    subgraph "Information Security Concepts"
+        P2 --> P2_CIA(CIA Triad & Concepts)
+        P2 --> P2_Crypto(Cryptography)
+        P2 --> P2_OSINT(OSINT Techniques)
+    end
+
+    P2_OSINT --> P3(Phase 3: Web App VA/PT)
+
+    subgraph "Web Application Penetration Testing"
+        P3 --> P3_Burp(Tools: Burp Suite)
+        P3 --> P3_OWASP(OWASP Top 10 Deep Dive)
+        P3 --> P3_Logic(Business Logic Flaws)
+    end
+
+    P3_OWASP --> P4(Phase 4: API & Network Security)
+
+    subgraph "Infrastructure and APIs"
+        P4 --> P4_API(API Security: JWT, BOLA)
+        P4 --> P4_NetP(Network: Nmap, Metasploit)
+        P4 --> P4_Cloud(Cloud Security Basics)
+    end
+
+    P4_API --> P5(Phase 5: Bug Bounty & Automation)
+
+    subgraph "Scaling Attacks"
+        P5 --> P5_Recon(Continuous Recon)
+        P5 --> P5_Bots(Building Autonomous Bots)
+        P5 --> P5_Nucl(Custom Nuclei Templates)
+    end
+
+    P5_Bots --> P6(Phase 6: Specialized Domains & CTFs)
+
+    subgraph "Leveling Up"
+        P6 --> P6_CTF(CTF Challenges)
+        P6 --> P6_Mob(Mobile Pentesting)
+        P6 --> P6_Rev(Reverse Engineering)
+    end
+
+    P6 --> Goal(ADVANCED: Hero Level)
+
+    %% Apply Styles
+    class Start,Goal master;
+    class P1,P1_Net,P1_OS,P1_Prog fundamental;
+    class P2,P2_CIA,P2_Crypto,P2_OSINT securityBasics;
+    class P3,P3_Burp,P3_OWASP,P3_Logic webSec;
+    class P4,P4_API,P4_NetP,P4_Cloud,P5,P5_Recon,P5_Bots,P5_Nucl advancedSec;
+    class P6,P6_CTF,P6_Mob,P6_Rev master;
+```
 ---
 
 ## 🛠️ Phase 1: The Foundations (Prerequisites)
