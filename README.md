@@ -19,12 +19,12 @@ Welcome to the most comprehensive roadmap for mastering Vulnerability Assessment
 
 ```mermaid
 graph TD
-    %% Define Styles for Different Stages
-    classDef fundamental fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef securityBasics fill:#ccf,stroke:#333,stroke-width:2px;
-    classDef webSec fill:#ff9,stroke:#333,stroke-width:2px;
-    classDef advancedSec fill:#bbf,stroke:#333,stroke-width:2px;
-    classDef master fill:#bfb,stroke:#333,stroke-width:2px;
+    %% Define Styles for Different Stages (Text color set to black)
+    classDef fundamental fill:#f9f,stroke:#333,stroke-width:2px,color:#000000;
+    classDef securityBasics fill:#ccf,stroke:#333,stroke-width:2px,color:#000000;
+    classDef webSec fill:#ff9,stroke:#333,stroke-width:2px,color:#000000;
+    classDef advancedSec fill:#bbf,stroke:#333,stroke-width:2px,color:#000000;
+    classDef master fill:#bfb,stroke:#333,stroke-width:2px,color:#000000;
 
     %% Define Nodes and Flows
     Start(BEGINNER: Zero Level) --> P1(Phase 1: IT Fundamentals)
