@@ -55,7 +55,7 @@ Welcome to the most comprehensive roadmap for mastering Vulnerability Assessment
 *Deep dive into web vulnerabilities.*
 
 <p align="center">
-  <img src="https://portswigger.net/burp/documentation/desktop/images/getting-started/getting-started-intercept.png" width="600" alt="Burp Suite Intercept">
+  <img src="[https://portswigger.net/burp/documentation/desktop/images/getting-started/getting-started-intercept.png](https://media.licdn.com/dms/image/sync/v2/D4D27AQEdAB2dVddRlg/articleshare-shrink_800/articleshare-shrink_800/0/1732611581747?e=2147483647&v=beta&t=NU2TcFaI3V-O0ifuk9BcRDJbIZLUTql23f8UYHs1_oQ)" width="600" alt="Burp Suite Intercept">
 </p>
 
 ### 1. Interception & Fuzzing
