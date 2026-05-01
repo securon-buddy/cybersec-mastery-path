@@ -124,7 +124,7 @@ graph TD
 *Deep dive into web vulnerabilities.*
 
 <p align="center">
-  <img src="[https://portswigger.net/burp/documentation/desktop/images/getting-started/getting-started-intercept.png](https://media.licdn.com/dms/image/sync/v2/D4D27AQEdAB2dVddRlg/articleshare-shrink_800/articleshare-shrink_800/0/1732611581747?e=2147483647&v=beta&t=NU2TcFaI3V-O0ifuk9BcRDJbIZLUTql23f8UYHs1_oQ)" width="600" alt="Burp Suite Intercept">
+   <img width="3076" height="1344" alt="burp" src="https://github.com/user-attachments/assets/86881ba9-affe-41c3-92f7-eb67b2e4e565" />
 </p>
 
 ### 1. Interception & Fuzzing
